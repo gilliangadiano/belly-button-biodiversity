@@ -1,4 +1,4 @@
-# belly-button-biod# Belly Button Biodiversity
+# Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
@@ -23,5 +23,5 @@ Deployed Flask app to Heroku.
 - - -
 ### Copyright
 
-Data Boot Camp © 2018. All Rights Reserved.
+Data Boot Camp Â© 2018. All Rights Reserved.
 iversity
