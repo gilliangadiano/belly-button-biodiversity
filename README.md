@@ -1,8 +1,6 @@
-Deployed `Heroku` here: [Belly Button Biodiversity App](https://app-biodiversity.herokuapp.com/)
+Deployed `Heroku App` here: [Belly Button Biodiversity App](https://app-biodiversity.herokuapp.com/)
 
 # Belly Button Biodiversity
-
-![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
 This assignment is an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
