@@ -1,6 +1,6 @@
-# belly-button-biod# Belly Button Biodiversity
+Deployed `Heroku App` here: [Belly Button Biodiversity App](https://app-biodiversity.herokuapp.com/)
 
-![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
+# Belly Button Biodiversity
 
 This assignment is an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
@@ -23,5 +23,5 @@ Deployed Flask app to Heroku.
 - - -
 ### Copyright
 
-Data Boot Camp © 2018. All Rights Reserved.
+Data Boot Camp Â© 2018. All Rights Reserved.
 iversity
