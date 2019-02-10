@@ -1,7 +1,7 @@
 function buildMetadata(sample) {
 
     // @TODO: Complete the following function that builds the metadata panel
-    
+
     // Use `d3.json` to fetch the metadata for a sample
     var bio= `/metadata/${sample}`;
     
@@ -15,18 +15,15 @@ function buildMetadata(sample) {
       // Use `Object.entries` to add each key and value pair to the panel
       // Hint: Inside the loop, you will need to use d3 to append new
       // tags for each key-value in the metadata.
-      Object.defineProperties(sample).forEach(function ([key, value]) {
+      Object.entries(sample).forEach(function ([key, value]) {
         var row = sample_metadata.append("p");
         row.text(`${key}: ${value}`);
     });
       }
     )};
   
-      // BONUS: Build the Gauge Chart
-      // buildGauge(data.WFREQ);
-  
-  
-  function buildCharts(sample) {
+// Build charts
+function buildCharts(sample) {
   
     // @TODO: Use `d3.json` to fetch the sample data for the plots
     var bio = `/samples/${sample}`;
@@ -35,18 +32,18 @@ function buildMetadata(sample) {
       //@TODO: Build a Bubble Chart using the sample data
       var x_values = data.otu_ids;
       var y_values = data.sample_values;
-      var msize = data.sample_values;
-      var mcolors = data.otu_ids;
-      var tvalues = data.otu_labels;
+      var bsize = data.sample_values;
+      var bcolors = data.otu_ids;
+      var bvalues = data.otu_labels;
   
       var trace1 = {
         x: x_values,
         y: y_values,
-        text: tvalues,
+        text: bvalues,
         mode: 'markers',
         marker: {
-          color: mcolors,
-          size: msize
+          color: bcolors,
+          size: bsize
         }
       };
   
@@ -79,7 +76,7 @@ function buildMetadata(sample) {
   
   }
   
-  function init() {
+function init() {
     // Grab a reference to the dropdown select element
     var selector = d3.select("#selDataset");
   
@@ -106,5 +103,4 @@ function buildMetadata(sample) {
   }
   
   // Initialize the dashboard
-  init();
-  
+init();
