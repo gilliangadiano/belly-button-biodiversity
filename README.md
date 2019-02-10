@@ -1,4 +1,4 @@
-**Deployed `Heroku App` here:** [Belly Button Biodiversity App](https://app-biodiversity.herokuapp.com/)
+**Deployed** `Heroku App`: [Belly Button Biodiversity App](https://app-biodiversity.herokuapp.com/)
 
 # Belly Button Biodiversity
 
