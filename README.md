@@ -1,3 +1,5 @@
+Deployed `Heroku` here: [Belly Button Biodiversity App](https://app-biodiversity.herokuapp.com/)
+
 # Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
